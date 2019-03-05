@@ -22,5 +22,7 @@ export default (props) => {
         </tbody>
         </table>
 
+        <button className="btn btn-primary buttonMargins" onClick={props.onAddButtonClicked}>Lägg till utflykt</button>
+
     </div>);
 }
